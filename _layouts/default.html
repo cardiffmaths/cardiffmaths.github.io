@@ -1,27 +1,22 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>{{ page.title }}</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
+<html lang="en">
+	
+	{% include head.html %}
+	
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about.html">About</a></li>
-        		<li><a href="/latextree">LatexTree</a></li>
-    		</ul>
-		</nav>
 		<div class="container">
-
-    {{ content }}
-
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:evansd8@cf.ac.uk">email</a></li>
-        		<li><a href="https://github.com/cardiffmaths">github/cardiffmaths</a></li>
-			</ul>
-		</footer>
+			
+			{% include header.html %}
+			
+			{{ content }}
+			
+			{% include footer.html %}
+		
+		</div> <!-- /container -->
+	
+	
+		{% include scripts.html %}
+	
 	</body>
+
 </html>
