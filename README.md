@@ -1,3 +1,3 @@
-# Cardiff University School of Mathematics
+# Cardiff Maths
 
 This is an experimental website.
