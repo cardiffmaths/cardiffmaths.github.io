@@ -10,7 +10,7 @@ layout: feed
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://cardiffmaths.github.io/blog</id>
 	<author>
-		<name>D Evans</name>
+		<name>cardiffmaths</name>
 		<email>evansd8@cf.ac.uk</email>
 	</author>
 
