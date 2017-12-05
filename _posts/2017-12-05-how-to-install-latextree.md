@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to install `latextree`"
+title: "How to install latextree"
 date: 2017-12-05
 ---
 
