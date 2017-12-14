@@ -5,15 +5,15 @@ date: 2017-12-14
 ---
 Sign-up for an account on [https://www.pythonanywhere.com](https://www.pythonanywhere.com)
 
-1. Preliminaries
+## Preliminaries
 ```
 $ export $EDITOR=vi
 $ mkdir ~/bin
 $ mkdir ~/log
 ```
 
-2. Write a test script
-```
+## Write a test script
+```bash
 #!/bin/bash
 
 # create filename
@@ -28,7 +28,7 @@ echo `date` >> $fname
 mv $fname ~/log
 ```
 
-2. Set up a ``cron`` job
+## Set up a ``cron`` job
 ```
 $ crontab -e
 01 * * * * uname /home/uname/bin/hello
