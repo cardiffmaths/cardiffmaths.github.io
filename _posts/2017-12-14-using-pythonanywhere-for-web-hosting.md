@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using pythonanywhere for Web hosting"
+title: "Using pythonanywhere for web hosting"
 date: 2017-12-14
 ---
 Sign-up for an account on (https:www.pythonanywhere.com)
