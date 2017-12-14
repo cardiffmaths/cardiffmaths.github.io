@@ -5,11 +5,14 @@ date: 2017-12-14
 ---
 Sign-up for an account on (https://www.pythonanywhere.com)
 
-## Write a test script
+1. Initial setup
 ```
+$ export $EDITOR=vi
 $ mkdir ~/bin
 $ mkdir ~/log
 ```
+
+2. Write a test script
 ```bash
 #!/bin/bash
 
@@ -25,9 +28,8 @@ echo `date` >> $fname
 mv $fname ~/log
 ```
 
-## Set up `cron`
+2. Set up a ``cron`` job
 ```
-$ export $EDITOR=vi
 $ crontab -e
 01 * * * * uname /home/uname/bin/hello
 ```
