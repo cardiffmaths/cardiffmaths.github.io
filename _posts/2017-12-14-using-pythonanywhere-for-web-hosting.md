@@ -3,7 +3,7 @@ layout: post
 title: "Using pythonanywhere for web hosting"
 date: 2017-12-14
 ---
-Sign-up for an account on (https://www.pythonanywhere.com)
+Sign-up for an account on [https://www.pythonanywhere.com](https://www.pythonanywhere.com)
 
 1. Initial setup
 ```
