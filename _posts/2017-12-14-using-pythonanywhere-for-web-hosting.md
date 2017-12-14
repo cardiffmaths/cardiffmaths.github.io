@@ -5,7 +5,7 @@ date: 2017-12-14
 ---
 Sign-up for an account on [https://www.pythonanywhere.com](https://www.pythonanywhere.com)
 
-1. Initial setup
+1. Preliminaries
 ```
 $ export $EDITOR=vi
 $ mkdir ~/bin
