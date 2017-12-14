@@ -13,7 +13,7 @@ $ mkdir ~/log
 ```
 
 2. Write a test script
-```bash
+```
 #!/bin/bash
 
 # create filename
