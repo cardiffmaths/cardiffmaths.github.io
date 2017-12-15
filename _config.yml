@@ -3,5 +3,7 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 baseurl: /
 url: https://cardiffmaths.github.io
+comments:
+  provider: disqus
 disqus: 
   shortname: cardiffmaths
