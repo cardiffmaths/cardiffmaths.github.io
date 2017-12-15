@@ -30,6 +30,7 @@ comments: true
 
 			<!-- Post comments -->
 			<div class="notecomments">
+			{% if page.comments %}
 				{% include disqus.html %}	 
 			{% endif %}
 			</div>
