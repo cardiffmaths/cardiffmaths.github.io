@@ -4,35 +4,31 @@ notes: active
 comments: true
 ---
 
-<div class="notes">
-		<div class="note single">
-			<h1 class="title">{{ page.title }}</h1>
+<div class="postss">
+	<div class="post single">
+		<h1 class="title">{{ page.title }}</h1>
 			
-			<h2 class="date"><info datetime="{{ page.date }}">
+		<h2 class="date">
+			<info datetime="{{ page.date }}">
 				{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
-			</info></h2>
-			<!-- Post content -->
-			<div class="notebody">
-				{{ content }}
-			</div>
-			<!-- Post info -->
-			<div class="noteinfo">
+			</info>
+		</h2>
+		<!-- content -->
+		<div class="postbody">
+			{{ content }}
+		</div>
+		<!-- post info -->
+		<div class="noteinfo">
 			<!-- include some categories and tags maybe? -->
-			</div>
+		</div>
 
-			<hr>
+		<hr>
 
-			x
-			{% if page.comments %} 
-				Hwre
-			{% endif %}
-			yz
-
-			<!-- Post comments -->
-			<div class="notecomments">
+		<!-- comments -->
+		<div class="notecomments">
 			{% if page.comments %}
 				{% include disqus.html %}	 
 			{% endif %}
-			</div>
-		</div><!-- / .note .single -->
-</div><!-- /.notes -->
+		</div>
+	</div><!-- / .poste .single -->
+</div><!-- /.posts -->
