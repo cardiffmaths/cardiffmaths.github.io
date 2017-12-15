@@ -30,7 +30,9 @@ comments: true
 
 			<!-- Post comments -->
 			<div class="notecomments">
-				{% include disqus.html %}	 
+				{% if site.disqus.shortname %}
+					{% include disqus.html %}	 
+				{% endif %}
 			</div>
 		</div><!-- / .note .single -->
 </div><!-- /.notes -->
